@@ -23,7 +23,11 @@ WebUI.setText(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  U
 WebUI.setText(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro_1'), 
     'Maxval@123')
 
+Thread.sleep(6000)
+
+
 WebUI.click(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_Remember Password _btn b'))
+Thread.sleep(5000)
 
 WebUI.click(findTestObject('Object Repository/IDSRepository/Page_Max IDS v4.0  Terms and Condit/input_idsqa_btn btn-info'))
 
