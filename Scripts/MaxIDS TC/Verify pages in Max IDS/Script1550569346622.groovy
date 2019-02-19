@@ -23,21 +23,52 @@ WebUI.setText(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  U
 WebUI.setText(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro_1'), 
     'Maxval@123')
 
-Thread.sleep(6000)
-
+WebUI.waitForPageLoad(5000)
 
 WebUI.click(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_Remember Password _btn b'))
-Thread.sleep(5000)
+
+WebUI.waitForPageLoad(5000)
 
 WebUI.click(findTestObject('Object Repository/IDSRepository/Page_Max IDS v4.0  Terms and Condit/input_idsqa_btn btn-info'))
 
+WebUI.waitForPageLoad(8000)
+
+dashboardlabel = WebUI.getText(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_Summary'))
+
+println(dashboardlabel.trim())
+
+WebUI.verifyEqual(dashboardlabel.trim(), 'Summary')
+
+'Click Category menu'
 WebUI.click(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/i_Dashboard_fa fa-th-list'))
 
-WebUI.click(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/i_Category_fa fa-clone'))
+WebUI.waitForPageLoad(6000)
 
-WebUI.click(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/span_MaxvalClient Admin'))
+categorylabel = WebUI.getText(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/ol_Dashboard            Catego'))
+println(categorylabel.trim())
+WebUI.verifyEqual(categorylabel.trim(), 'Dashboard Category')
 
-WebUI.click(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/a_Logout'))
+WebUI.waitForPageLoad(9000)
+
+'move compare&associate page'
+WebUI.navigateToUrl('https://maxids.maxval.com/Idsqa/Associate/SearchForAssociation?PageFrom=RecordComparisonChart')
+WebUI.waitForPageLoad(6000)
+compareAssociatelabel = WebUI.getText(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/ol_Dashboard                Co'))
+WebUI.verifyEqual(compareAssociatelabel.trim(), 'Dashboard Comparison Search')
+
+'move Import menu'
+WebUI.navigateToUrl('https://maxids.maxval.com/Idsqa/Import/Index')
+WebUI.waitForPageLoad(6000)
+importlabel = WebUI.getText(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/ol_Dashboard'))
+WebUI.verifyEqual(importlabel.trim(), 'Dashboard Import')
+
+
+'move Import with reference menu'
+WebUI.navigateToUrl('https://maxids.maxval.com/Idsqa/ImportReferences/Index')
+importwithreferencelabel = WebUI.getText(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/Import with reference page header'))
+WebUI.verifyEqual(importwithreferencelabel.trim(), 'Import with references')
+WebUI.waitForPageLoad(6000)
+
 
 WebUI.closeBrowser()
 
