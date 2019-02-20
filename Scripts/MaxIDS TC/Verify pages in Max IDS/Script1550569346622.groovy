@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  U
 
 WebUI.waitForPageLoad(5000)
 
-'Click on Login buton to navigate to dashboard page'
+
 WebUI.click(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_Remember Password _btn b'))
 
 WebUI.waitForPageLoad(5000)
