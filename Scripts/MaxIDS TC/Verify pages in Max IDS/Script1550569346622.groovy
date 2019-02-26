@@ -15,15 +15,18 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+'Open browser and navigate to Max IDS Application'
 WebUI.navigateToUrl('https://maxids.maxval.com/Idsqa/')
 
+'Input username'
 WebUI.setText(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro'), 
     'maxval')
-
+'Input password'
 WebUI.setText(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro_1'), 
     'Maxval@123')
 
 WebUI.waitForPageLoad(5000)
+
 
 WebUI.click(findTestObject('Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_Remember Password _btn b'))
 

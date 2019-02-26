@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserModule" time="102" tests="0" failures="1" errors="0">
+   <testsuite name="UserModule" tests="0" failures="1" errors="0" time="102" timestamp="2019-02-20 18:47:55" hostname="prabakar - MVSL1793.maxval-cbe.com" id="Test Suites/IDSRegressionSuite/UserModule">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\prabakar\\git\\Katalongit\\Reports\\IDSRegressionSuite\\UserModule\\20190220_184753"/>
+         <property name="logFiles" value="C:\\Users\\prabakar\\git\\Katalongit\\Reports\\IDSRegressionSuite\\UserModule\\20190220_184753\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\prabakar\\git\\Katalongit\\Reports\\IDSRegressionSuite\\UserModule\\20190220_184753\\1550668776721.png"/>
+         <property name="hostName" value="prabakar - MVSL1793.maxval-cbe.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="172.16.17.93"/>
+         <property name="sessionId" value="feb28f8410f2c5f87744089cd8d9bc9f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MaxIDS TC/Verify Adding a new user - Type CA" classname="Test Cases/MaxIDS TC/Verify Adding a new user - Type CA" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MaxIDS TC/Verify Adding a new user - Type CA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' located by 'By.xpath: id(&quot;toast-container&quot;)/div[@class=&quot;toast toast-info&quot;][count(. | //div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))]) = count(//div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Verify Adding a new user - Type CA.run(Verify Adding a new user - Type CA:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550668673320.run(TempTestSuite1550668673320.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-20 18:47:55 - [TEST_CASE][FAILED] - Test Cases/MaxIDS TC/Verify Adding a new user - Type CA: Test Cases/MaxIDS TC/Verify Adding a new user - Type CA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' located by 'By.xpath: id("toast-container")/div[@class="toast toast-info"][count(. | //div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))]) = count(//div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Verify Adding a new user - Type CA.run(Verify Adding a new user - Type CA:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550668673320.run(TempTestSuite1550668673320.groovy:36)
+
+
+2019-02-20 18:47:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-20 18:47:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-20 18:47:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-20 18:48:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-20 18:48:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-20 18:48:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-20 18:48:01 - [TEST_STEP][PASSED] - navigateToUrl("https://maxids.maxval.com/Idsqa/"): Navigate to 'https://maxids.maxval.com/Idsqa/' successfully
+
+2019-02-20 18:48:06 - [MESSAGE][PASSED] - Navigate to 'https://maxids.maxval.com/Idsqa/' successfully
+
+2019-02-20 18:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro"), "maxval"): Text 'maxval' is set on object 'Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro'
+
+2019-02-20 18:48:06 - [MESSAGE][PASSED] - Text 'maxval' is set on object 'Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro'
+
+2019-02-20 18:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro_1"), "Maxval@123"): Text 'Maxval@123' is set on object 'Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro_1'
+
+2019-02-20 18:48:06 - [MESSAGE][PASSED] - Text 'Maxval@123' is set on object 'Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro_1'
+
+2019-02-20 18:48:06 - [TEST_STEP][PASSED] - waitForPageLoad(5000): Wait for page load successfully
+
+2019-02-20 18:48:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_Remember Password _btn b")): Object: 'Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_Remember Password _btn b' is clicked on
+
+2019-02-20 18:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_Remember Password _btn b' is clicked on
+
+2019-02-20 18:48:06 - [TEST_STEP][PASSED] - waitForPageLoad(5000): Wait for page load successfully
+
+2019-02-20 18:48:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/IDSRepository/Page_Max IDS v4.0  Terms and Condit/input_idsqa_btn btn-info")): Object: 'Object Repository/IDSRepository/Page_Max IDS v4.0  Terms and Condit/input_idsqa_btn btn-info' is clicked on
+
+2019-02-20 18:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/IDSRepository/Page_Max IDS v4.0  Terms and Condit/input_idsqa_btn btn-info' is clicked on
+
+2019-02-20 18:48:07 - [TEST_STEP][PASSED] - waitForPageLoad(8000): Wait for page load successfully
+
+2019-02-20 18:48:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:07 - [TEST_STEP][PASSED] - dashboardlabel = getText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_Summary")): Text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_Summary' is: 'Summary'
+
+2019-02-20 18:48:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_Summary' is: 'Summary'
+
+2019-02-20 18:48:18 - [TEST_STEP][PASSED] - println(dashboardlabel.trim()): null
+
+2019-02-20 18:48:18 - [TEST_STEP][PASSED] - verifyEqual(dashboardlabel.trim(), "Summary"): Actual object 'Summary' and expected object 'Summary' are equal
+
+2019-02-20 18:48:18 - [MESSAGE][PASSED] - Actual object 'Summary' and expected object 'Summary' are equal
+
+2019-02-20 18:48:18 - [TEST_STEP][PASSED] - navigateToUrl("https://maxids.maxval.com/Idsqa/Settings/Index"): Navigate to 'https://maxids.maxval.com/Idsqa/Settings/Index' successfully
+
+2019-02-20 18:48:19 - [MESSAGE][PASSED] - Navigate to 'https://maxids.maxval.com/Idsqa/Settings/Index' successfully
+
+2019-02-20 18:48:19 - [TEST_STEP][PASSED] - waitForPageLoad(8000): Wait for page load successfully
+
+2019-02-20 18:48:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:19 - [TEST_STEP][PASSED] - Settingspage = getText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/Settings page")): Text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/Settings page' is: 'Dashboard Settings'
+
+2019-02-20 18:48:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/Settings page' is: 'Dashboard Settings'
+
+2019-02-20 18:48:19 - [TEST_STEP][PASSED] - verifyEqual(Settingspage.trim(), "Dashboard Settings"): Actual object 'Dashboard Settings' and expected object 'Dashboard Settings' are equal
+
+2019-02-20 18:48:19 - [MESSAGE][PASSED] - Actual object 'Dashboard Settings' and expected object 'Dashboard Settings' are equal
+
+2019-02-20 18:48:19 - [TEST_STEP][PASSED] - waitForPageLoad(5000): Wait for page load successfully
+
+2019-02-20 18:48:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:20 - [TEST_STEP][PASSED] - navigateToUrl("https://maxids.maxval.com/Idsqa/User/ListUser"): Navigate to 'https://maxids.maxval.com/Idsqa/User/ListUser' successfully
+
+2019-02-20 18:48:21 - [MESSAGE][PASSED] - Navigate to 'https://maxids.maxval.com/Idsqa/User/ListUser' successfully
+
+2019-02-20 18:48:21 - [TEST_STEP][PASSED] - waitForPageLoad(5000): Wait for page load successfully
+
+2019-02-20 18:48:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:21 - [TEST_STEP][PASSED] - userlistpage = getText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/Settings user page")): Text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/Settings user page' is: 'Dashboard Settings Users'
+
+2019-02-20 18:48:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/Settings user page' is: 'Dashboard Settings Users'
+
+2019-02-20 18:48:21 - [TEST_STEP][PASSED] - verifyEqual(userlistpage.trim(), "Dashboard Settings Users"): Actual object 'Dashboard Settings Users' and expected object 'Dashboard Settings Users' are equal
+
+2019-02-20 18:48:21 - [MESSAGE][PASSED] - Actual object 'Dashboard Settings Users' and expected object 'Dashboard Settings Users' are equal
+
+2019-02-20 18:48:21 - [TEST_STEP][PASSED] - waitForPageLoad(8000): Wait for page load successfully
+
+2019-02-20 18:48:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:21 - [TEST_STEP][PASSED] - navigateToUrl("https://maxids.maxval.com/Idsqa/User/RegisterUser"): Navigate to 'https://maxids.maxval.com/Idsqa/User/RegisterUser' successfully
+
+2019-02-20 18:48:35 - [MESSAGE][PASSED] - Navigate to 'https://maxids.maxval.com/Idsqa/User/RegisterUser' successfully
+
+2019-02-20 18:48:35 - [TEST_STEP][PASSED] - Thread.sleep(8000): null
+
+2019-02-20 18:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_firstname"), firstName): Text 'katalon_DDF' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_firstname'
+
+2019-02-20 18:48:43 - [MESSAGE][PASSED] - Text 'katalon_DDF' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_firstname'
+
+2019-02-20 18:48:43 - [TEST_STEP][PASSED] - waitForPageLoad(2000): Wait for page load successfully
+
+2019-02-20 18:48:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_lastname"), lastName): Text 'studio_DDF' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_lastname'
+
+2019-02-20 18:48:43 - [MESSAGE][PASSED] - Text 'studio_DDF' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_lastname'
+
+2019-02-20 18:48:43 - [TEST_STEP][PASSED] - waitForPageLoad(2000): Wait for page load successfully
+
+2019-02-20 18:48:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_email"), emailAddress): Text 'katalonddf@gmail.com' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_email'
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Text 'katalonddf@gmail.com' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_email'
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - waitForPageLoad(2000): Wait for page load successfully
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_contactnumber"), contactnumber): Text '1234567890' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_contactnumber'
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_contactnumber'
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - waitForPageLoad(2000): Wait for page load successfully
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_username"), username): Text 'katalon_ddf' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_username'
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Text 'katalon_ddf' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_username'
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - waitForPageLoad(2000): Wait for page load successfully
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_username"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_username'
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_username'
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_password"), password): Text 'PIlot01!' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_password'
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Text 'PIlot01!' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_password'
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - waitForPageLoad(2000): Wait for page load successfully
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_password"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_password'
+
+2019-02-20 18:48:44 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_password'
+
+2019-02-20 18:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_confirmpassword"), password): Text 'PIlot01!' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_confirmpassword'
+
+2019-02-20 18:48:45 - [MESSAGE][PASSED] - Text 'PIlot01!' is set on object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_confirmpassword'
+
+2019-02-20 18:48:45 - [TEST_STEP][PASSED] - waitForPageLoad(2000): Wait for page load successfully
+
+2019-02-20 18:48:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:48:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/link_user_nextbutton")): Object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/link_user_nextbutton' is clicked on
+
+2019-02-20 18:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/link_user_nextbutton' is clicked on
+
+2019-02-20 18:48:45 - [TEST_STEP][PASSED] - Thread.sleep(8000): null
+
+2019-02-20 18:48:53 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/dropdown_select_usertype"), "Group Admin", false): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/dropdown_select_usertype"), "Group Admin", false)
+
+2019-02-20 18:48:53 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/dropdown_select_usertype"), "Group Admin", false)
+
+2019-02-20 18:48:53 - [TEST_STEP][PASSED] - Thread.sleep(6000): null
+
+2019-02-20 18:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_checkbox_sendaccount")): Object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_checkbox_sendaccount' is clicked on
+
+2019-02-20 18:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_checkbox_sendaccount' is clicked on
+
+2019-02-20 18:48:59 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-02-20 18:49:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/link_saveuserprofile")): Object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/link_saveuserprofile' is clicked on
+
+2019-02-20 18:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/link_saveuserprofile' is clicked on
+
+2019-02-20 18:49:04 - [TEST_STEP][PASSED] - waitForPageLoad(8000): Wait for page load successfully
+
+2019-02-20 18:49:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 18:49:04 - [TEST_STEP][FAILED] - usersuccessmessage = getText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage")): usersuccessmessage = getText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' located by 'By.xpath: id("toast-container")/div[@class="toast toast-info"][count(. | //div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))]) = count(//div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Verify Adding a new user - Type CA.run(Verify Adding a new user - Type CA:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550668673320.run(TempTestSuite1550668673320.groovy:36)
+
+
+2019-02-20 18:49:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("toast-container")/div[@class="toast toast-info"][count(. | //div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))]) = count(//div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-20 18:49:37 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' located by 'By.xpath: id("toast-container")/div[@class="toast toast-info"][count(. | //div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))]) = count(//div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))])]' not found)
+[[ATTACHMENT|C:\\Users\\prabakar\\git\\Katalongit\\Reports\\IDSRegressionSuite\\UserModule\\20190220_184753\\1550668776721.png]]
+
+2019-02-20 18:49:37 - [MESSAGE][FAILED] - usersuccessmessage = getText(findTestObject("Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' located by 'By.xpath: id("toast-container")/div[@class="toast toast-info"][count(. | //div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))]) = count(//div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Verify Adding a new user - Type CA.run(Verify Adding a new user - Type CA:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550668673320.run(TempTestSuite1550668673320.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-20 18:47:55 - [TEST_CASE][FAILED] - Test Cases/MaxIDS TC/Verify Adding a new user - Type CA: Test Cases/MaxIDS TC/Verify Adding a new user - Type CA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' located by 'By.xpath: id("toast-container")/div[@class="toast toast-info"][count(. | //div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))]) = count(//div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Verify Adding a new user - Type CA.run(Verify Adding a new user - Type CA:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550668673320.run(TempTestSuite1550668673320.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-20 18:47:55 - [TEST_SUITE][FAILED] - UserModule: Test Cases/MaxIDS TC/Verify Adding a new user - Type CA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' located by 'By.xpath: id("toast-container")/div[@class="toast toast-info"][count(. | //div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))]) = count(//div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Verify Adding a new user - Type CA.run(Verify Adding a new user - Type CA:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550668673320.run(TempTestSuite1550668673320.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-20 18:47:55 - [TEST_SUITE][FAILED] - UserModule: Test Cases/MaxIDS TC/Verify Adding a new user - Type CA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage' located by 'By.xpath: id("toast-container")/div[@class="toast toast-info"][count(. | //div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))]) = count(//div[@class = 'toast toast-info' and (contains(text(), '×
+Saved Successfully') or contains(., '×
+Saved Successfully'))])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Verify Adding a new user - Type CA.run(Verify Adding a new user - Type CA:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550668673320.run(TempTestSuite1550668673320.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -129,8 +129,8 @@ WebUI.click(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6
 Thread.sleep(8000)
 
 'Select the user type'
-not_run: WebUI.selectOptionByLabel(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/dropdown_select_usertype'), 
-    'Group Admin', false)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/dropdown_select_usertype'), 
+    usertype, false)
 
 Thread.sleep(6000)
 
@@ -143,6 +143,13 @@ Thread.sleep(5000)
 WebUI.click(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/link_saveuserprofile'))
 
 'wait for page load'
+WebUI.waitForPageLoad(8000)
+'User assign to group'
+WebUI.click(findTestObject('Object Repository/AssignGroupPopup/Page_Max-IDS - 4.3.6982.643/AssignGroup_main'))
+Thread.sleep(7000)
+
+'save the user details'
+WebUI.click(findTestObject('Object Repository/AssignGroupPopup/Page_Max-IDS - 4.3.6982.643/button_chooseGroupandSave'))
 WebUI.waitForPageLoad(8000)
 
 'Verify user save success message'

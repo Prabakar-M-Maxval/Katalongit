@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserModule,Chrome 72.0.3626.109,,2019-02-20 18:47:55,2019-02-20 18:49:37,1m - 42.538s,FAILED
+,,,,,,
+Test Cases/MaxIDS TC/Verify Adding a new user - Type CA,Chrome 72.0.3626.109,,2019-02-20 18:47:55,2019-02-20 18:49:37,1m - 41.444s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.109,,2019-02-20 18:47:56,2019-02-20 18:48:00,4.182s,PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-20 18:48:00,2019-02-20 18:48:01,1.167s,PASSED
+"navigateToUrl(""https://maxids.maxval.com/Idsqa/"")",Chrome 72.0.3626.109,Open browser and navigate to Max IDS Application,2019-02-20 18:48:01,2019-02-20 18:48:06,4.359s,PASSED
+"setText(findTestObject(""Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro""), ""maxval"")",Chrome 72.0.3626.109,Input username,2019-02-20 18:48:06,2019-02-20 18:48:06,0.184s,PASSED
+"setText(findTestObject(""Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_MEMBER LOGIN_form-contro_1""), ""Maxval@123"")",Chrome 72.0.3626.109,Input password,2019-02-20 18:48:06,2019-02-20 18:48:06,0.148s,PASSED
+waitForPageLoad(5000),Chrome 72.0.3626.109,,2019-02-20 18:48:06,2019-02-20 18:48:06,0.084s,PASSED
+"click(findTestObject(""Object Repository/IDSRepository/Page_MaxIDSv4.0  User Login/input_Remember Password _btn b""))",Chrome 72.0.3626.109,Click on Login buton to navigate to dashboard page,2019-02-20 18:48:06,2019-02-20 18:48:06,0.104s,PASSED
+waitForPageLoad(5000),Chrome 72.0.3626.109,,2019-02-20 18:48:06,2019-02-20 18:48:06,0.009s,PASSED
+"click(findTestObject(""Object Repository/IDSRepository/Page_Max IDS v4.0  Terms and Condit/input_idsqa_btn btn-info""))",Chrome 72.0.3626.109,,2019-02-20 18:48:06,2019-02-20 18:48:07,1.175s,PASSED
+waitForPageLoad(8000),Chrome 72.0.3626.109,,2019-02-20 18:48:07,2019-02-20 18:48:07,0.009s,PASSED
+"dashboardlabel = getText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_Summary""))",Chrome 72.0.3626.109,Verify Dashboard page is loaded completely or not,2019-02-20 18:48:07,2019-02-20 18:48:18,10.481s,PASSED
+println(dashboardlabel.trim()),Chrome 72.0.3626.109,,2019-02-20 18:48:18,2019-02-20 18:48:18,0.004s,PASSED
+"verifyEqual(dashboardlabel.trim(), ""Summary"")",Chrome 72.0.3626.109,,2019-02-20 18:48:18,2019-02-20 18:48:18,0.019s,PASSED
+"navigateToUrl(""https://maxids.maxval.com/Idsqa/Settings/Index"")",Chrome 72.0.3626.109,Open Settings page,2019-02-20 18:48:18,2019-02-20 18:48:19,1.640s,PASSED
+waitForPageLoad(8000),Chrome 72.0.3626.109,,2019-02-20 18:48:19,2019-02-20 18:48:19,0.009s,PASSED
+"Settingspage = getText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/Settings page""))",Chrome 72.0.3626.109,Verify Settings page is loaded completely or not,2019-02-20 18:48:19,2019-02-20 18:48:19,0.043s,PASSED
+"verifyEqual(Settingspage.trim(), ""Dashboard Settings"")",Chrome 72.0.3626.109,,2019-02-20 18:48:19,2019-02-20 18:48:19,0.002s,PASSED
+waitForPageLoad(5000),Chrome 72.0.3626.109,Wait for page load,2019-02-20 18:48:19,2019-02-20 18:48:20,0.008s,PASSED
+"navigateToUrl(""https://maxids.maxval.com/Idsqa/User/ListUser"")",Chrome 72.0.3626.109,open user list page,2019-02-20 18:48:20,2019-02-20 18:48:21,1.006s,PASSED
+waitForPageLoad(5000),Chrome 72.0.3626.109,,2019-02-20 18:48:21,2019-02-20 18:48:21,0.012s,PASSED
+"userlistpage = getText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/Settings user page""))",Chrome 72.0.3626.109,Verify Users page is loaded completely or not,2019-02-20 18:48:21,2019-02-20 18:48:21,0.051s,PASSED
+"verifyEqual(userlistpage.trim(), ""Dashboard Settings Users"")",Chrome 72.0.3626.109,,2019-02-20 18:48:21,2019-02-20 18:48:21,0.001s,PASSED
+waitForPageLoad(8000),Chrome 72.0.3626.109,,2019-02-20 18:48:21,2019-02-20 18:48:21,0.007s,PASSED
+"navigateToUrl(""https://maxids.maxval.com/Idsqa/User/RegisterUser"")",Chrome 72.0.3626.109,move t  Add new user,2019-02-20 18:48:21,2019-02-20 18:48:35,14.274s,PASSED
+Thread.sleep(8000),Chrome 72.0.3626.109,Wait for page load,2019-02-20 18:48:35,2019-02-20 18:48:43,8.009s,PASSED
+"setText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_firstname""), firstName)",Chrome 72.0.3626.109,Input firstname,2019-02-20 18:48:43,2019-02-20 18:48:43,0.246s,PASSED
+waitForPageLoad(2000),Chrome 72.0.3626.109,,2019-02-20 18:48:43,2019-02-20 18:48:43,0.009s,PASSED
+"setText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_lastname""), lastName)",Chrome 72.0.3626.109,Input lastname,2019-02-20 18:48:43,2019-02-20 18:48:43,0.232s,PASSED
+waitForPageLoad(2000),Chrome 72.0.3626.109,,2019-02-20 18:48:43,2019-02-20 18:48:43,0.012s,PASSED
+"setText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_email""), emailAddress)",Chrome 72.0.3626.109,Input email address,2019-02-20 18:48:43,2019-02-20 18:48:44,0.334s,PASSED
+waitForPageLoad(2000),Chrome 72.0.3626.109,,2019-02-20 18:48:44,2019-02-20 18:48:44,0.008s,PASSED
+"setText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_contactnumber""), contactnumber)",Chrome 72.0.3626.109,Input contactno,2019-02-20 18:48:44,2019-02-20 18:48:44,0.195s,PASSED
+waitForPageLoad(2000),Chrome 72.0.3626.109,,2019-02-20 18:48:44,2019-02-20 18:48:44,0.009s,PASSED
+"setText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_username""), username)",Chrome 72.0.3626.109,Input username,2019-02-20 18:48:44,2019-02-20 18:48:44,0.208s,PASSED
+waitForPageLoad(2000),Chrome 72.0.3626.109,,2019-02-20 18:48:44,2019-02-20 18:48:44,0.008s,PASSED
+"sendKeys(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_username""), Keys.chord(TAB))",Chrome 72.0.3626.109,press the tab key,2019-02-20 18:48:44,2019-02-20 18:48:44,0.071s,PASSED
+"setText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_password""), password)",Chrome 72.0.3626.109,Enter the password,2019-02-20 18:48:44,2019-02-20 18:48:44,0.162s,PASSED
+waitForPageLoad(2000),Chrome 72.0.3626.109,,2019-02-20 18:48:44,2019-02-20 18:48:44,0.007s,PASSED
+"sendKeys(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_password""), Keys.chord(TAB))",Chrome 72.0.3626.109,press the tab key,2019-02-20 18:48:44,2019-02-20 18:48:44,0.047s,PASSED
+"setText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_confirmpassword""), password)",Chrome 72.0.3626.109,Enter the confirm password,2019-02-20 18:48:44,2019-02-20 18:48:45,0.185s,PASSED
+waitForPageLoad(2000),Chrome 72.0.3626.109,,2019-02-20 18:48:45,2019-02-20 18:48:45,0.009s,PASSED
+"click(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/link_user_nextbutton""))",Chrome 72.0.3626.109,click next button,2019-02-20 18:48:45,2019-02-20 18:48:45,0.080s,PASSED
+Thread.sleep(8000),Chrome 72.0.3626.109,Wait for page load,2019-02-20 18:48:45,2019-02-20 18:48:53,8.002s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/dropdown_select_usertype""), ""Group Admin"", false)",Chrome 72.0.3626.109,Select the user type,2019-02-20 18:48:53,2019-02-20 18:48:53,0.008s,NOT_RUN
+Thread.sleep(6000),Chrome 72.0.3626.109,,2019-02-20 18:48:53,2019-02-20 18:48:59,6.002s,PASSED
+"click(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_checkbox_sendaccount""))",Chrome 72.0.3626.109,unchcek sned account info to user,2019-02-20 18:48:59,2019-02-20 18:48:59,0.091s,PASSED
+Thread.sleep(5000),Chrome 72.0.3626.109,,2019-02-20 18:48:59,2019-02-20 18:49:04,5.003s,PASSED
+"click(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/link_saveuserprofile""))",Chrome 72.0.3626.109,click save button,2019-02-20 18:49:04,2019-02-20 18:49:04,0.103s,PASSED
+waitForPageLoad(8000),Chrome 72.0.3626.109,wait for page load,2019-02-20 18:49:04,2019-02-20 18:49:04,0.009s,PASSED
+"usersuccessmessage = getText(findTestObject(""Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/div_toastmessage""))",Chrome 72.0.3626.109,Verify user save success message,2019-02-20 18:49:04,2019-02-20 18:49:37,32.687s,FAILED

@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify Adding a new user - Type CA</name>
+   <name>Verify Adding a new user - Type GA</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>33ce9d41-44d7-4e36-aab3-3d7ba49f7207</testCaseGuid>
+   <testCaseGuid>0ad3ceb4-c3a1-4d6b-a746-9457ba504175</testCaseGuid>
    <variable>
       <defaultValue>'firstname'</defaultValue>
       <description></description>
-      <id>fa92bd1a-bb5e-43b5-8964-a6dc0965d51a</id>
+      <id>342be40a-f2e1-4e13-abf2-33a1739eea10</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
       <defaultValue>'lastname'</defaultValue>
       <description></description>
-      <id>f441c679-a467-4391-993f-eeffc2bd76ff</id>
+      <id>fa0c8220-87d2-41a2-9867-59bde08a58d4</id>
       <masked>false</masked>
       <name>lastName</name>
    </variable>
    <variable>
-      <defaultValue>'emailaddress@test.com'</defaultValue>
+      <defaultValue>'katalondemo@test.com'</defaultValue>
       <description></description>
-      <id>b93d1e98-849c-4da5-bbc9-097fafb0205d</id>
+      <id>c671285f-3a09-4e91-929c-890670108dc8</id>
       <masked>false</masked>
       <name>emailAddress</name>
    </variable>
    <variable>
       <defaultValue>'1234567890'</defaultValue>
       <description></description>
-      <id>56e820f6-a80d-45e7-abe0-261c0721bc15</id>
+      <id>cc9af14b-09a5-4384-8930-9c54b637b583</id>
       <masked>false</masked>
       <name>contactnumber</name>
    </variable>
    <variable>
-      <defaultValue>'user_katalon'</defaultValue>
+      <defaultValue>'katalon_ga'</defaultValue>
       <description></description>
-      <id>d362c0dc-13cb-454b-96ee-04e42b501c14</id>
+      <id>5f3f3790-fe27-4fcc-b8f4-fbb11be277bf</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>'Pilot01!'</defaultValue>
       <description></description>
-      <id>0bc48eff-6a7e-4e71-bb3c-771ce242b4b5</id>
+      <id>d629a8a6-98cb-4e65-acb8-e5972fa4e226</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'Client Admin'</defaultValue>
+      <defaultValue>'Group Admin'</defaultValue>
       <description></description>
-      <id>3244c3a7-265b-4913-8e97-852065768c8c</id>
+      <id>7a838ca7-fd89-4c71-907b-dda8d1d63040</id>
       <masked>false</masked>
       <name>usertype</name>
    </variable>
