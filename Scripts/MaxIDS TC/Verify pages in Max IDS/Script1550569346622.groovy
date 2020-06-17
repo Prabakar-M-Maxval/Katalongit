@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
-
+println "tset"
 'Open browser and navigate to Max IDS Application'
 WebUI.navigateToUrl('https://maxids.maxval.com/Idsqa/')
 

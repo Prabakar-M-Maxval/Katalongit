@@ -16,6 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+println "Test"
 WebUI.maximizeWindow()
 
 'Open browser and navigate to Max IDS Application'
@@ -77,6 +78,7 @@ WebUI.navigateToUrl('https://maxids.maxval.com/Idsqa/User/RegisterUser')
 
 'Wait for page load'
 Thread.sleep(8000)
+
 
 'Input firstname'
 WebUI.setText(findTestObject('Object Repository/IDSRepository/Page_Max-IDS - 4.3.6982.643/input_user_firstname'), firstName)
